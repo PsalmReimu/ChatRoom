@@ -20,7 +20,6 @@
 %>
     <tr>
         <td>用户名：<%=entry.getKey()%>，SessionId：<%= entry.getValue().getId()%></td>
-        <!--<td><a href="#" onclick="doQD()" class="btn btn-info" title="错过签到？点击手动签到！" >强制下线</a></td>-->
     </tr>
 <%
 }}%>
